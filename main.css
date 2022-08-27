@@ -1,0 +1,51 @@
+.aside {
+    height: 600px;
+    width: 300px;
+    border: 2px white solid;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.largeSection {
+    height: 600px;
+    border: 2px white solid;
+    width:600px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.app {
+    display: flex;
+}
+
+.topContainer {
+    width: 600px;
+    display: flex;
+    background-color: lightgray;
+
+}
+.eachtopContainer {
+    width: 250px;
+    height: 250px;
+    border: 2px white solid;
+}
+
+.bottomContainer {
+    height: 300px;
+    width: 600px;
+    border: 2px white solid;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.insideBox {
+    width: 500px;
+    height: 200px;
+    background-color: lightgray;
+    display: flex;
+}
